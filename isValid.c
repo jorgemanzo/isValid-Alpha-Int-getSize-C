@@ -3,7 +3,7 @@
 #include "isValid.h"
 #endif
 
-#define CLIMIT 256
+#define CLIMIT 256 /*Character size limit of input*/
 
 int getSize(char *txt){
     int size =0;
