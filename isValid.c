@@ -3,10 +3,12 @@
 #include "isValid.h"
 #endif
 
+#define CLIMIT 256
+
 int getSize(char *txt){
     int size =0;
     int i;
-    for( i = 0; i < 256; i++){
+    for( i = 0; i < CLIMIT; i++){
         if(txt[i] != '\0'){size++;}
         else{break;}
     }
@@ -16,7 +18,7 @@ int getSize(char *txt){
 int getSizeConst(const char *txt){
     int size =0;
     int i; 
-    for(i = 0; i < 256; i++){
+    for(i = 0; i < CLIMIT; i++){
         if(txt[i] != '\0'){size++;}
         else{break;}
     }
@@ -26,7 +28,7 @@ int getSizeConst(const char *txt){
 int isValidintMore(char *txt, int size){
     int i;
     for( i =0; i < size; i++){
-        if( (int)txt[i] >= 48 && (int)txt[i] <= 57){}
+        if( (int)txt[i] >= 48 && (int)txt[i] <= 57){}/*char is a number 0-9*/
         else{return 0;}
     }
     return 1;
