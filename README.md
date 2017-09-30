@@ -1,6 +1,6 @@
 # Array Tools Base  :black_small_square:
 |Current Working Status|
-|----------------------|
+|:----------------------:|
 | :white_check_mark:   |
 
 These groups of functions are helpful in working with character arrays. In quick summary, these functions can help
