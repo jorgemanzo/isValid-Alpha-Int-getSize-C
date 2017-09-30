@@ -22,7 +22,7 @@ int isValidintMore(char *txt, int size);
  * */
 
 int isValidalpha(char *txt); 
-/* Takes in a unll terminated cstring and returns a 1(true) or 0(false)
+/* Takes in a null terminated cstring and returns a 1(true) or 0(false)
  * depending if the given cstring contains all Alphabetic
  * characters
  * */
