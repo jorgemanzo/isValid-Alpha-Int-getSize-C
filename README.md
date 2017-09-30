@@ -11,7 +11,7 @@ It will probably be removed in later versions).
 
 This library is needed as a base for some of my other groups of functions.
 
-###To Do  :heavy_check_mark:
+### To Do  :heavy_check_mark:
 - [ ] Remove getSize as it performs the same function as strlen()
 
 |Function Name|Description|Return|Params|
